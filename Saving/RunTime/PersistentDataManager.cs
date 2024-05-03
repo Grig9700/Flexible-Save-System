@@ -102,7 +102,7 @@ public class PersistentDataManager : MonoBehaviour
             return;
         }
 
-        SceneManager.LoadSceneAsync(_gameData.sceneName);
+        //SceneManager.LoadSceneAsync(_gameData.sceneName);
         
         foreach (var persistentDataObject in _persistentDataObjects)
         {

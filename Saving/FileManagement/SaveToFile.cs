@@ -20,7 +20,7 @@ public static class SaveToFile
 
             if (useEncryption)
             {
-                //Implement Encryption Here
+                //Implement your choice of Encryption Here
             }
             
             using (FileStream stream = new FileStream(fullPath, FileMode.Create))

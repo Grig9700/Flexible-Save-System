@@ -32,7 +32,7 @@ public static class LoadFromFile
             
             if (useEncryption)
             {
-                //Implement Decryption Here
+                //Implement your choice of matching Decryption Here
             }
 
             gameData = JsonUtility.FromJson<GameData>(dataToLoad);
